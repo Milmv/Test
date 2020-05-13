@@ -1,0 +1,229 @@
+* {
+  font-family: "Abel", sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  outline: none;
+}
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  margin: 0 auto;
+}
+.topBar {
+  width: auto;
+  min-height: 90px;
+  display: flex;
+  background: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 50px;
+}
+.navList a {
+  margin-left: 40px;
+}
+@media (max-width: 1024px){
+  .navList img{
+    width: 17%;
+  }
+}
+.banner {
+  width: 100%;
+  min-height: 450px;
+  background-color: #d8d8d8;
+}
+h1 {
+  font-size: 60px;
+  line-height: 76px;
+  color: #000000;
+  padding-top: 123px;
+  margin-left: 130px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 46px;
+  color: #000000;
+  margin-left: 130px;
+}
+.bannerButton {
+  display: flex;
+  padding-top: 30px;
+  margin-left: 130px;
+}
+.bannerButton button {
+  padding: 15px 85px 12px 71px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 26px;
+}
+.bannerButton button:nth-child(1) {
+  background-color: #ffffff;
+  color: #000000;
+  margin-right: 40px;
+}
+.bannerButton button:nth-child(2) {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* content */
+/* VerticalaArticle */
+.wrapperVerticalaArticle {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 110px;
+  padding-bottom: 82px;
+}
+@media (max-width: 1330px){
+  .wrapperVerticalaArticle{
+    flex-wrap: wrap;
+  }
+}
+.VerticalaArticle {
+  margin-top: 80px;
+  width: 380px;
+}
+.VerticalaArticle h4 {
+  font-size: 30px;
+  line-height: 38px;
+  margin-top: 30px;
+  color: #1c1e20;
+}
+.VerticalaArticle p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #1c1e20;
+  margin-top: 10px;
+  word-break: inherit;
+  margin-bottom: 40px;
+}
+a.subText {
+  font-size: 18px;
+  line-height: 23px;
+  color: #787878;
+}
+/* Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d8d8d8;
+  padding: 129px 0px;
+}
+.form h3 {
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 4.375px;
+  font-style: normal;
+  color: #1c1e20;
+}
+form {
+  display: flex;
+  margin-top: 30px;
+}
+.form input {
+  padding: 15px 178px 12px 20px;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: #787878;
+}
+.form input::placeholder {
+  font-size: 26px;
+  color: #787878;
+}
+.form button {
+  font-size: 26px;
+  line-height: 33px;
+  background: #000000;
+  color: #ffffff;
+  padding: 15px 98px 12px 89px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/* Article */
+.wrapperArticle {
+  padding: 80px 120px;
+}
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.article h4 {
+  font-size: 30px;
+  line-height: 38px;
+  color: #1c1e20;
+}
+.article p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #1c1e20;
+  margin-top: 8px;
+  word-break: inherit;
+}
+.wrapperArticle div:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.wrapperArticle div:nth-child(odd) img {
+  margin-left: 60px;
+}
+.wrapperArticle div:nth-child(even) img {
+  margin-right: 60px;
+}
+@media( max-width:1240px){
+  .wrapperArticle img{
+    width: 50%;
+  }
+}
+.article:nth-child(odd) p,
+.article:nth-child(odd) h4 {
+  text-align: end;
+}
+.article:last-child {
+  margin-bottom: 0px;
+}
+.blackButton {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+.blackButton button {
+  font-size: 26px;
+  line-height: 33px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 15px 88px 12px 71px;
+}
+/* Footer */
+footer{
+  background-color: #D8D8D8;
+  margin: 0 auto;
+  padding-top: 97px;
+  padding-bottom: 50px;
+}
+.wrapperFooter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerItems{
+  padding: 30px 80px;
+  border-bottom: 1px solid #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.footerItems img{
+  margin: auto 20px;
+} 
+.socialFooter img{
+  margin: 50px 25px;
+}
